@@ -1,0 +1,215 @@
+
+        /* 网站头部*/
+
+        header {
+            height: 86px;
+            line-height: 86px;
+            z-index: 200;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .header_mask {
+            position: absolute;
+            height: 86px;
+            left: 0;
+            top: 0;
+            right: 0;
+            background-color: #fff;
+            border-bottom: 1px solid #f0f0f0;
+            box-shadow: 0 1px 4px rgba(0,0,0,.3);
+            opacity: .9;
+            filter: alpha(opacity=90);
+            z-index: -1;
+            min-width: 1170px;
+        }
+
+        header .navbar-brand {
+            height: 86px;
+        }
+
+        header .navbar_title {
+            padding: 1px 15px;
+            font-size: 20px;
+        }
+        /* 网站底部*/
+        footer ul {
+            padding: 30px 0 15px;
+        }
+
+            footer ul li {
+                display: inline-block;
+                height: 15px;
+                line-height: 15px;
+                margin-left: 4px;
+                padding-right: 6px;
+                border-right: 1px solid #b6b6b6;
+            }
+
+                footer ul li:last-child {
+                    border-right: none;
+                }
+
+                footer ul li a {
+                    color: #666;
+                }
+
+        /*表单容器*/
+        .form_con {
+            padding: 40px 30px;
+            background: #fff;
+            border-radius: 4px;
+            border: 1px solid #f0f0f0;
+        }
+
+            .form_con h3 {
+                padding-left: 15px;
+                font-size: 20px;
+                margin-bottom: 10px;
+                /*font-weight: bold;*/
+            }
+
+            .form_con .form-group label {
+                float: left;
+                width: 80px;
+                font-weight: normal;
+                text-align: right;
+                padding-top: 10px;
+                margin-right: 20px;
+            }
+               .form_con .form-group .checkbox label {
+               width:auto;
+            }
+
+            .form_con .form-group .input_con {
+                float: left;
+            }
+
+        .register_con input.form-control {
+            width: 423px;
+        }
+
+        #Token {
+            width: 110px;
+            display: inline-block;
+        }
+        /*注册页面*/
+
+        .register_con {
+            margin-top: 127px;
+        }
+
+            .register_con .form_con {
+                width: 586px;
+                margin: 0 auto;
+                position: relative;
+            }
+
+        select.form-control {
+            width: 130px;
+            display: inline-block;
+            height: 40px;
+            border: 1px solid #e6e6e6;
+            box-shadow: none;
+        }
+
+            select.form-control:focus {
+                border-color: #40c641;
+                outline: 0;
+                box-shadow: none;
+            }
+
+        .cut_line {
+            margin: 15px 0;
+            margin-left: 3%;
+            height: 2px;
+            background: url('/Content/imgs/cut_line.png');
+        }
+
+        #div_mailtoken, #div_smstoken {
+            display: inline-block;
+            width: 150px;
+            margin-left: 15px;
+        }
+        /*登录页面*/
+        .login_con {
+            padding: 73px 0;
+            margin-top: 180px;
+            margin-left: -800px;
+            overflow: hidden;
+            min-width: 1170px;
+        }
+
+        .form_con .checkbox label {
+            padding-top: 0;
+        }
+
+        .login_con .max_width_1170 {
+            position: relative;
+        }
+
+        .login_con_bg {
+            position: absolute;
+            top: -295px;
+            left: -146px;
+        }
+
+        .login_con .form_con {
+            width: 360px;
+        }
+
+        .login_con label.form_error {
+            right: 30px;
+        }
+        /*验证信息样式定义*/
+
+        label.form_error {
+            top: 67px;
+            right: 32px;
+            color: #fff;
+            background-color: #fa5555;
+            padding: 2px 5px;
+            border-radius: 4px;
+            opacity: 0.7;
+            display: none;
+        }
+
+        #form_userlogin_error {
+            right: 65px;
+        }
+        /*重置密码界面*/
+        .reset_password_con {
+            margin-top: 127px;
+        }
+
+            .reset_password_con span {
+                display: inline-block;
+                margin-left: 10px;
+                padding-left: 10px;
+                padding-top: 3px;
+                border-left: 2px solid #000;
+                color: #999;
+            }
+        /*找回密码弹出层*/
+        .model_resetpassword h3 {
+            border-bottom: 4px solid #40c641;
+            padding-bottom: 10px;
+        }
+
+        .model_resetpassword p {
+            margin-top: 15px;
+        }
+
+            .model_resetpassword p.des {
+                padding: 15px;
+                border-radius: 4px;
+                background-color: #f2f2f2;
+                color: #666;
+            }
+
+            .model_resetpassword p a {
+                width: 15%;
+                height: auto;
+            }
