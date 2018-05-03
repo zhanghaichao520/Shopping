@@ -40,7 +40,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-<title>商品详细页面</title>
+<title>商品de详细页面</title>
 <link rel="stylesheet" href="css/base.css" type="text/css" />
 <link rel="stylesheet" href="css/shop_common.css" type="text/css" />
 <link rel="stylesheet" href="css/shop_header.css" type="text/css" />
