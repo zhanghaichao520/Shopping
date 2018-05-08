@@ -76,12 +76,12 @@
 			</dd>
 		</dl> -->
 		<dl id="menu-product">
-			<dt><i class="Hui-iconfont">&#xe620;</i> 场地管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe620;</i> 产品管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a _href="product-category.jsp" data-title="产品分类" href="javascript:void(0)">场地分类</a></li>
-					<li><a _href="product-list.jsp" data-title="产品列表" href="javascript:void(0)">场地列表</a></li>
- 					<li><a _href="product-search.jsp" data-title="产品搜索" href="javascript:void(0)">场地搜索</a></li>
+					<li><a _href="product-category.jsp" data-title="产品分类" href="javascript:void(0)">产品分类</a></li>
+					<li><a _href="product-list.jsp" data-title="产品列表" href="javascript:void(0)">产品列表</a></li>
+ 					<li><a _href="product-search.jsp" data-title="产品搜索" href="javascript:void(0)">产品搜索</a></li>
 				</ul>
 			</dd>
 		</dl>
